@@ -1,4 +1,7 @@
-# Basic Graph App with [create-react-app](https://github.com/facebookincubator/create-react-app)
+# Simple Cypher
+
+A Graph App created with [create-react-app](https://github.com/facebookincubator/create-react-app)
+that demonstrates sending Cypher and showing the results.
 
 | Setting | Value |
 |---------|-------|
