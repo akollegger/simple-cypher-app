@@ -2,9 +2,9 @@
   "name": "simple-cypher-app",
   "homepage": ".",
   "neo4jDesktop": {
-    "apiVersion": "1.1.0"
+    "apiVersion": "^1.2.0"
   },
-  "version": "0.1.3",
+  "version": "0.1.4",
   "private": false,
   "dependencies": {
     "i": "^0.3.6",

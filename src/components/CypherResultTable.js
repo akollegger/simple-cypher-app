@@ -1,6 +1,6 @@
 import React from 'react';
 import {Table, Message} from 'semantic-ui-react';
-const stringify = require ('string.ify').configure ({ pure: true, maxLength: 80 });
+// const stringify = require ('string.ify').configure ({ pure: true, maxLength: 80 });
 
 export default function ProjectStatusBar({error, result}) {
 
@@ -30,7 +30,7 @@ export default function ProjectStatusBar({error, result}) {
       </Table.HeaderCell>
       <Table.HeaderCell style={jsonCellStyle}>
         <pre>{
-          stringify(result.summary)
+          JSON.stringify(result.summary)
         }</pre>
       </Table.HeaderCell>
     </Table.Row>
@@ -43,7 +43,7 @@ export default function ProjectStatusBar({error, result}) {
           <Table.Cell>{i}</Table.Cell>
           <Table.Cell style={jsonCellStyle}>
             <pre>{
-              stringify(record)
+              JSON.stringify(record)
             }</pre>
           </Table.Cell>
         </Table.Row>
